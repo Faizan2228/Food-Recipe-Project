@@ -1,0 +1,10 @@
+.home-continer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+
+  .recipe-section{
+    margin: 20px 0;
+  }

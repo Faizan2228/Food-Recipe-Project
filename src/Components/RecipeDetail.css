@@ -1,0 +1,84 @@
+.recipe-detail{
+    background-color: #090b0d;
+    color: #fff;
+}
+.dish-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px;
+}
+
+.dish-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.dish-info span{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 8px 11px;
+    margin: 5px 0;
+}
+
+.recipe-guide{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.fetch-steps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 650px;
+    padding: 25px;
+    text-align: center;
+}
+
+.instructions{
+    margin-bottom: 15px;
+}
+
+.instructions b{
+    font-size: 23px;
+    color: green;
+}
+
+.each-step, .each-ingredient{
+    font-size: 19px;
+    letter-spacing: 1px;
+    padding: 11px 0;
+}
+
+.each-step b, .ingredient{
+    font-size: 20px;
+    color: green;
+}
+
+.suggest-recipe{
+    margin-left: 12px;
+}
+
+.random-container{
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x:visible;
+    scrollbar-width: none;
+    padding-bottom: 20px;
+}
+
+.random-recipe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
